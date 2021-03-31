@@ -1,4 +1,7 @@
 let sorte 
 
 sorte = 13 
-console.log("Quero te contar meu número da sorte. É
+console.log("Quero te contar meu número da sorte. É " + sorte " !");
+
+sorte 
+let 
