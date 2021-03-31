@@ -1,5 +1,5 @@
-let dia = "Olá, bom dia!"
-let tarde = "Olá, boa tarde!"
-let noite = "Olá, boa noite!"
+let dia = "Olá, bom dia, "
+let tarde = "boa tarde, "
+let noite = "boa noite!"
 
-console.log("Segunda-feira: "
+console.log("Segunda-feira: " + dia + "
