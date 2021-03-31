@@ -5,4 +5,4 @@ sorte = 13
 console.log("Quero te contar meu número da sorte. É " + sorte + " !");
 
 sorte = 7 
-console.lof
+console.log("Não, espera. É " + sorte + ".. Ah não, esse era o da mamãe. O meu é " + sorte2 
