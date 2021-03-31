@@ -13,4 +13,4 @@ let x10 = soma / 10 + percent
 console.log("E por último, você tem a opção de parcelar em 10 vezes com juros de 1,5% no valor total da compra. As parcelas ficam em R$" + x10 + " reais!");
 
 let cupons = parseInt(soma / 190)
-console.log("E o melhor! Você ganhou " + cupons + " na sua compra! Parabéns :)");
+console.log("E o melhor! Você ganhou " + cupons + " cupons na sua compra! Parabéns :)");
