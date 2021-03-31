@@ -2,4 +2,5 @@ let dia = "Olá, bom dia, "
 let tarde = "boa tarde, "
 let noite = "boa noite!"
 
-console.log("Segunda-feira: " + dia + "
+console.log("Segunda-feira: " + dia + tarde + noite);
+console.l
