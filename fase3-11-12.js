@@ -11,3 +11,6 @@ console.log("Você também tem a opção de parcelar em 5 vezes sem juros. As pa
 let percent = (1.5 * soma) / 100
 let x10 = soma / 10 + percent
 console.log("E por último, você tem a opção de parcelar em 10 vezes com juros de 1,5% no valor total da compra. As parcelas ficam em R$" + x10 + " reais!");
+
+let cupons = soma / 190
+console.log("E o melhor! Você
