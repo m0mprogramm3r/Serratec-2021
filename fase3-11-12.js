@@ -9,4 +9,5 @@ let x5 = soma / 5
 console.log("Você também tem a opção de parcelar em 5 vezes sem juros. As parcelas ficam em R$" + x5 + " reais!");
 
 let percent = (1.5 * soma) / 100
-let x10 
+let x10 = soma / 10 + percent
+console.log("
