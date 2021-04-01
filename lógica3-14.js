@@ -4,4 +4,6 @@
 //Quantas combinações, ou, de quantas formas diferentez ela poderá usar essas roupas?
 
 let x = 4 
-let y = 
+let y = 8
+let z = 4 * 8
+console.log("Jennyffer poderá usar as roupas de " + z + " combinações di
