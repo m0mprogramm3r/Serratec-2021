@@ -8,4 +8,4 @@ let lari = 23;
 let tai = 26;
 
 let squad = lili + gio + giu + lari + tai;
-console.log("A soma das idades dos integrantes do squad 'leks de konoha' é " + squad + " ! :)");
+console.log("A soma das idades dos integrantes do nosso squad 'leks de konoha' é " + squad + " ! :)");
