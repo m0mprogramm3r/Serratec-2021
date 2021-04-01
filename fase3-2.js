@@ -7,4 +7,5 @@ let giu = 22;
 let lari = 23;
 let tai = 26;
 
-let squad
+let squad = lili + gio + giu + lari + tai;
+console.log("A soma das idades dos integrantes do squad "leks de konoha" é 
