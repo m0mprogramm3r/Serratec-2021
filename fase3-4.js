@@ -4,4 +4,4 @@ let celsius = prompt("Qual temperatura em Celsius você quer converter? Digite a
 
 let fahr = (celsius * 9 / 5) + 32
 console.log("Boa escolha!");
-console.log("A temperatura escolhida em Celsius, é " + fahr + " graus fahrenheit!");
+console.log("A temperatura escolhida em Celsius, é: " + fahr + " graus fahrenheit!");
