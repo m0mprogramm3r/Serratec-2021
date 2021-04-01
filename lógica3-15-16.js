@@ -9,4 +9,6 @@ let pontos = cupons * 1
 console.log("Hmm.. Deixe me ver... De acordo com os cupons que possui, você tem um total de " + pontos + " saldo em pontos no programa fidelidade!"); 
 
 //O programa fidelidade aumentou o sistema criando o "Multiplique seus pontos". 
-//O cliente irá digitar quantos cupons tem e 
+//O cliente irá digitar quantos cupons tem e o sistema irá triplicar em pontos.
+
+console.log("Por essa você não esperava! Agora seu cupom, vale 3 pontos!! Vamos ver quanto v
