@@ -5,4 +5,5 @@ const prompt = require("prompt-sync")();
 
 let x = prompt("Digite um número: ");
 
-let neg = -
+let neg = -x
+console.log(neg);
