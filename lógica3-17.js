@@ -4,4 +4,7 @@
 
 const prompt = require(prompt-sync")(); 
 let garrafa = prompt ("Diga-me: quantos ml tem a garrafa? ");
-let alcool = garrafa *  
+let alcool = garrafa * 70 / 100
+let gel = garrafa - alcool
+
+console.log("Para se fazer álcool em gel em uma garrafa de " + garrafa + 
