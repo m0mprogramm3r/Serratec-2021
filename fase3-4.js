@@ -1,3 +1,5 @@
+//O programa Termômetro lê em Celsius e devolve sua equivalência na escala Fahrenheit.
+
 const prompt = require("prompt-sync")();
 
 let celsius = prompt("Qual temperatura em Celsius você quer converter? Digite aqui: ");
