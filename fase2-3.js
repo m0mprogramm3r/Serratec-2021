@@ -1,4 +1,4 @@
-//O programa "indeciso"
+//O programa "indeciso" não sabe bem o número que quer imprimir.
 
 let sorte 
 let sorte2 = 22
