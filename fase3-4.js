@@ -1,1 +1,3 @@
-const prompt = require
+const prompt = require("prompt-sync")();
+
+let celsuus
