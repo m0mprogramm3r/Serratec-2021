@@ -10,4 +10,4 @@ let gio = 7
 let par = lili + tai
 let impar = gio - lari
 
-console.log(par "\n" impar);
+console.log(par \n impar);
