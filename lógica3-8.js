@@ -11,7 +11,7 @@ let t = "T"
 let d = "D" 
 let m = "M"
 
-console.log(t + "eresópolis tem " + x + " anos. " + d + "esses, foram " + y + " antes de mim. " + m + "as nos últimos " + z + "anos"
+console.log(t + "eresópolis tem " + x + " anos. " + d + "esses, foram " + y + " antes de mim. " + m + "as nos últimos " + z + " anos ela conta comigo."
 
 
 
