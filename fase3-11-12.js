@@ -16,6 +16,8 @@ let x10 = soma / 10 + percent
 console.log("E por último, você tem a opção de parcelar em 10 vezes com juros de 1,5% no valor total da compra. As parcelas ficam em R$" + x10 + " reais!");
 
 //É muito comum vermos promoções relacionadas ao valor das compras.
-//Alice fez suas compras em
+//Alice fez suas compras em um shopping cuja promoção era que a cada R$190,00 em compras, ela ganhava um cupom.
+//Quantos cupons ela ganhou?
+
 let cupons = parseInt(soma / 190)
 console.log("E o melhor! Você ganhou " + cupons + " cupons na sua compra! Parabéns :)");
