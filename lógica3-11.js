@@ -6,4 +6,4 @@ const prompt = require("prompt-sync")();
 let x = prompt("Digite um número: ");
 let y = x * x
 
-console.log("O número de " + x + " foi " + y + " ! :)");
+console.log("O resultado do quadrado de " + x + " foi " + y + " ! :)");
