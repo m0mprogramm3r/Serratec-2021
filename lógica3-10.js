@@ -3,3 +3,6 @@
 //"O dobro de x foi y". Substituindo x e y pelos valores.
 
 const prompt = require("prompt-sync")();
+
+let x = prompt("Digite um número: ");
+let y = x * 
