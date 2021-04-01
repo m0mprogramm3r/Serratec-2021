@@ -4,6 +4,10 @@
 //Cada letra maiuscula do texto será uma variável, sendo que x e z são valores fixos, e y irá conter uma expressão.
 
 const x = 129
-const y = 22
+let y = 129 - 22 
+const z = 11
+
+let T = "T"
+let 
 
 
