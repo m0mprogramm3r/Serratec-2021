@@ -3,8 +3,8 @@
 
 const prompt = require("prompt-sync")();
 
-let n1 = (prompt("Digite um número para começarmos: "));
-let n2 = (prompt("Digite outro número: "));
+let n1 = prompt("Digite um número para começarmos: ");
+let n2 = prompt("Digite outro número: ");
 
-console.log
+console.log("de " + n1 + " + 
 
