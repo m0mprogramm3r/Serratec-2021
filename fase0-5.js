@@ -1,3 +1,5 @@
+//Saudação puxa-saco. Faz todos os cumprimentos do dia de uma vez só, para semana toda!
+
 let dia = "Olá, bom dia, "
 let tarde = "boa tarde, "
 let noite = "boa noite!"
