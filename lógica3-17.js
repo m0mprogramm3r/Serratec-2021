@@ -3,4 +3,5 @@
 //Crie um programa onde será preenchida a capacidade da garrafa em mililitros, e o resultado será os volumes de álcool e de gel que precisam ser misturados para o preenchimento do vasilhame.
 
 const prompt = require(prompt-sync")(); 
-let garrafa = 
+let garrafa = prompt ("Diga-me: quantos ml tem a garrafa? ");
+let alcool = garrafa *  
