@@ -9,5 +9,5 @@ let n2 = prompt("Digite outro número: ");
 console.log("O resultado de " + n1 + " + " + n2 + " é " n1 + n2);
 console.log("O resultado de " + n1 + " - " + n2 + " é " n1 - n2);
 console.log("O resultado de " + n1 + " x " + n2 + " é " n1 * n2);
- 
+console.log("O resultado de " + n1 + " ÷ " + n2 + " é " n1 / n2); 
 
