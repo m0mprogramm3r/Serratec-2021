@@ -4,4 +4,5 @@
 //Cada cupom vale 1 ponto.
 
 const prompt = require("prompt-sync")(); 
-let cupons = prompt("
+let cupons = prompt("Diga-me: quantos cupons você possui? ");
+let cupons = cupons 
