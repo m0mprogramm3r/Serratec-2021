@@ -1,3 +1,4 @@
+//Minha carta para ler no final do curso. Contém minhad expectativas para o curso de programação e minha carreira na área!
 //begin
     console.log("Cartas para o futuro.");
     console.log("De mim para mim...");
