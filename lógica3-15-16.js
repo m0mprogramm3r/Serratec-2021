@@ -15,4 +15,4 @@ console.log("Por essa você não esperava! Agora seu cupom, vale 3 pontos!! Vamo
 
 let cupons = prompt("Olá! Diga-me: quantos cupons você possui? ");
 let pontos = cupons * 3
-console.log("Parabéns!! Você possui " + pontos + "
+console.log("Parabéns!! Você possui um total de " + pontos + " pontos no nosso programa fidelidade. Aproveite muito!");
