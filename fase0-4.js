@@ -1,3 +1,5 @@
+//Saudações, com três linhas de mensagem, uma para cada cumprimento.
+
 let oi = "Como você está?"
 
 console.log("Olá, bom dia! " + oi);
