@@ -7,4 +7,7 @@ let lili = 4
 let lari = 3
 let tai = 8 
 let gio = 7 
-let par = 
+let par = lili + tai
+let impar = gio - lari
+
+console.log(par "\n" impar);
