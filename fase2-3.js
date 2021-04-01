@@ -1,3 +1,5 @@
+//O programa "indeciso"
+
 let sorte 
 let sorte2 = 22
 
