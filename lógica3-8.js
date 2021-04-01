@@ -7,7 +7,12 @@ const x = 129
 let y = 129 - 22 
 const z = 11
 
-let T = "T"
-let 
+let t = "T"
+let d = "D" 
+let m = "M"
+
+
+
+
 
 
