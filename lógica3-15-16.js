@@ -5,4 +5,6 @@
 
 const prompt = require("prompt-sync")(); 
 let cupons = prompt("Diga-me: quantos cupons você possui? ");
-let cupons = cupons 
+let pontos = cupons * 1
+
+console.log("Hmm.. Deixe me ver... De acordo com os c
