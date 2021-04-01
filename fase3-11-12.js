@@ -1,3 +1,6 @@
+//Alice comprou alguns jogos e um videogame novo.
+//Para o pagamento, o sistema apresenta 3 opções de parcelamento e o valor de cada parce
+
 let jogos = 345.00
 let videogame = 1545.00
 let soma = jogos + videogame
