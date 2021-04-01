@@ -11,4 +11,6 @@ console.log("Hmm.. Deixe me ver... De acordo com os cupons que possui, você tem
 //O programa fidelidade aumentou o sistema criando o "Multiplique seus pontos". 
 //O cliente irá digitar quantos cupons tem e o sistema irá triplicar em pontos.
 
-console.log("Por essa você não esperava! Agora seu cupom, vale 3 pontos!! Vamos ver quanto v
+console.log("Por essa você não esperava! Agora seu cupom, vale 3 pontos!! Vamos ver quantos pontos você tem hoje? ");
+
+let cupons = prompt("Olá! Diga-me: quantos cupons você possui? "(;
