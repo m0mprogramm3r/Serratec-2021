@@ -5,4 +5,5 @@
 
 const prompt = require("prompt-sync")();
 
-let preco = 
+let preco = (ler("Valor do quilo: ");
+let gramas = (ler("Total em gramas da refeição: ");
