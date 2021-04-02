@@ -8,7 +8,9 @@ const prompt = require("prompt-sync")();
 let preco = (ler("Valor do quilo: ");
 let gramas = (ler("Total em gramas da refeição: ");
 let tara = 0465
-let p100 = (preco * 100) / 1
+let p100 = preco / 10
+
 
 console.log("Restaurante bucho cheio");
 console.log("Tara do prato: " + tara " gramas");
+console log("100g 
