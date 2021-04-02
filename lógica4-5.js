@@ -3,4 +3,6 @@
 //O operador da balança irá digitar o preço do quilo e o total em gramas da refeição, considerando que o prato vazio pesa 465g(tara).
 //A etiqueta irá conter o nome do restaurante, a tara do prato, o preço de 100g, o peso consumido e o valor total.
 
-const prompt = require("prompt-sync"
+const prompt = require("prompt-sync")();
+
+let preco = 
