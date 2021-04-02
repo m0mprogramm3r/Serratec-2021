@@ -16,5 +16,5 @@ console.log("Restaurante bucho cheio");
 console.log("Tara do prato: " + tara + " gramas");
 console log("Valor de 100g: R$" + p100);
 console.log("Consumo: " + gramas + " gramas"); 
-console.log("Total: R$
+console.log("Total: R$" + total);
 
