@@ -6,4 +6,6 @@
 
 const prompt = require("prompt-sync")();
 
-let nome = (ler("Olá
+let nome = (ler("Olá, qual é o seu nome?: ");
+let empresa = (ler("Diga-me, onde trabalha?: ");
+let funcao = (ler(
