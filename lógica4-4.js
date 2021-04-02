@@ -11,4 +11,6 @@ let empresa = (ler("Diga-me, onde trabalha?: ");
 let funcao = (ler("Qual é a sua função?: ");
 let credito = (ler("Qual valor do crédito que deseja contratar?: ");
 
-let disponivel = (credito
+let disponivel = (credito * 86) / 100 
+
+console.log("
