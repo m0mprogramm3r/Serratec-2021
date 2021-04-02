@@ -13,4 +13,4 @@ let credito = (ler("Qual valor do crédito que deseja contratar?: ");
 
 let disponivel = (credito * 86) / 100 
 
-console.log("Senhor(a) + 
+console.log("Senhor(a) " + nome
