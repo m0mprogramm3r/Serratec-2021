@@ -13,4 +13,5 @@ let p100 = preco / 10
 
 console.log("Restaurante bucho cheio");
 console.log("Tara do prato: " + tara " gramas");
-console log("100g 
+console log("Valor de 100g: R$" + p100);
+ 
