@@ -9,4 +9,6 @@ const prompt = require("prompt-sync")();
 let nome = (ler("Olá, qual é o seu nome?: ");
 let empresa = (ler("Diga-me, onde trabalha?: ");
 let funcao = (ler("Qual é a sua função?: ");
-let credito = (ler("Qual valor do crédito que deseja contratar?; 
+let credito = (ler("Qual valor do crédito que deseja contratar?: ");
+
+let disponivel = (credito
