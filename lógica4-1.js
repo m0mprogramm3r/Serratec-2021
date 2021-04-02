@@ -5,4 +5,6 @@
 const prompt = require("prompt-sync")();
 
 let nome = prompt("Olá, qual seu nome?: ");
-let sobrenome = prompt
+let sobrenome = prompt("Que bonito!! Agora me diga, qual seu sobrenome?: ");
+
+console.log("Tenha um excelente dia e 
