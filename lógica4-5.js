@@ -9,9 +9,11 @@ let preco = (ler("Valor do quilo: ");
 let gramas = (ler("Total em gramas da refeição: ");
 let tara = 0465
 let p100 = preco / 10
+let total
 
 
 console.log("Restaurante bucho cheio");
-console.log("Tara do prato: " + tara " gramas");
+console.log("Tara do prato: " + tara + " gramas");
 console log("Valor de 100g: R$" + p100);
- 
+console.log("Consumo: " + gramas + " gramas"); 
+
