@@ -3,3 +3,6 @@
 //Salário bruto, valor do desconto para o INSS e o salário líquido.
 
 const ler = require("prompt-sync")();
+
+let horas = (ler("Quantas horas são trabalhadas por mês? ");
+let valorhr = 
