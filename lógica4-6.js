@@ -6,4 +6,6 @@ const ler = require("prompt-sync")();
 
 let horas = (ler("Quantas horas são trabalhadas por mês? ");
 let valorhr = (ler("Quanto recebe por hora? ");
-let insspercen = (ler("Qual o percentual de desconto para
+let insspercen = (ler("Qual o percentual de desconto para o INSS? ");
+let salariobruto = horas * valorhr
+let inss = salariobruto * inssperc
