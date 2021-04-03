@@ -8,9 +8,10 @@ let horas = (ler("Quantas horas são trabalhadas por mês? ");
 let valorhr = (ler("Quanto recebe por hora? ");
 let insspercen = (ler("Qual o percentual de desconto para o INSS? ");
 let salariobruto = horas * valorhr
-let inss = salariobruto * insspercen
+let inss = salariobruto / insspercen
 let salarioliquido = salariobruto - inss
 
 console.log("C O N T R A - C H E Q U E");
 console.log("Seu salário bruto é: R$" + salariobruto);
 console.log("O valor do desconto do INSS é: R$" + inss);
+console.log("E o seu salário liquido é: R$" + salarioliquido);
