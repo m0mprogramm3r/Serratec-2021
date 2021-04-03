@@ -12,4 +12,5 @@ let inss = salariobruto * insspercen
 let salarioliquido = salariobruto - inss
 
 console.log("C O N T R A - C H E Q U E");
-console.log("Seu salário bruto é: R$" + salariobruto
+console.log("Seu salário bruto é: R$" + salariobruto);
+console.log("O valor do desconto do INSS é: R$" + inss);
