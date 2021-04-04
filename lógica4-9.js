@@ -1,13 +1,13 @@
 //Relacionais
 //O programa lê os inteiros A e B. 
-//Utilizando 
+//Utilizando variáveis boolean, escreva na tela o resultado de cada operação relacional com os números.
 
 const ler = require("prompt-sync")();
 
 let a = ler("Digite um número: ");
-a = Number(a);
+a = Number.parseInt(a);
 let b = ler("Digite outro número: ");
-b = Number(b);
+b = Number.parseInt(b);
 
 let boolean = isTooSmall = false
 boolean = a > b
