@@ -1,3 +1,7 @@
+//Relacionais
+//O programa lê os inteiros A e B. 
+//Utilizando 
+
 const ler = require("prompt-sync")();
 
 let a = ler("Digite um número: ");
