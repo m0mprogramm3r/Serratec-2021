@@ -10,4 +10,6 @@ boolean = a < b
 console.log("a é menor que b? " + boolean);
 
 boolean = a >= b
-console.log("a é maior ou igual a b
+console.log("a é maior ou igual a b? " + boolean);
+
+boolean = a <= b
