@@ -8,3 +8,5 @@ console.log("a é maior que b? " + boolean);
 
 boolean = a < b
 console.log("a é menor que b? " + boolean);
+
+boolean = a 
