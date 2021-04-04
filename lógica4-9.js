@@ -1,6 +1,6 @@
 let boolean = isTooSmall = false
 
-let a = prompt
+let a = prompt(
 let b = 7;
 
 boolean = a > b
