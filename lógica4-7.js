@@ -1,5 +1,6 @@
 //Cara ou Coroa
-//O programa irá funcionar assim: O sistema irá solicitar um número, o jogador  
+//O programa irá funcionar assim: O sistema irá solicitar um número, o jogador irá digitar o valor que preferir.
+//O programa então irá exibir uma mensagem 
 
 const ler = require("prompt-sync")();
 let boolean = isTooSmall = false; 
