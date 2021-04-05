@@ -3,7 +3,7 @@
 //Na portaria deve ser medida a temperatura à distância, e o valor não deve ultrapassar 37,5°.
 
 const ler = require("prompt-sync")();
-let boolean = isTooSmall = false
+let boolean 
 
 let mascara = ler("Usa máscara: ");
 mascara = String(mascara);
