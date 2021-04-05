@@ -4,3 +4,6 @@
 const ler = require("prompt-sync")();
 let boolean = isTooSmall = false;
 
+let mes = ler("Mês do seu nascimento: ");
+mes = Number(mes);
+let 
