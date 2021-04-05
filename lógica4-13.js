@@ -3,12 +3,10 @@
 //O CPF final "par" somente pode sair nos dias pares, e de igual modo, o dia ímpar é destinado aos documentos ímpares.
 
 const ler = require("prompt-sync")();
-let boolean = isTooSmall = false; 
+let boolean 
 
 let dia = ler("Dia (hoje): ");
-dia = Number(dia);
 let cpf = ler("CPF (após o hífen): ");
-cpf = Number(cpf);
 
 dia = dia % 2
 cpf = cpf % 2
