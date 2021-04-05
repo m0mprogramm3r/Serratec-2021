@@ -6,11 +6,11 @@
 
 const ler = require("prompt-sync")();
 
-let nome = (ler("Olá, qual é o seu nome?: ");
-let empresa = (ler("Diga-me, onde trabalha?: ");
-let funcao = (ler("Qual é a sua função?: ");
-let credito = (ler("Qual valor do crédito que deseja contratar?: ");
+let nome = ler("Olá, qual é o seu nome?: ");
+let empresa = ler("Diga-me, onde trabalha?: ");
+let funcao = ler("Qual é a sua função?: ");
+let credito = ler("Qual valor do crédito que deseja contratar?: ");
 
 let disponivel = (credito * 86) / 100 
 
-console.log("Senhor(a) " + nome + ", você está com sorte! Pela sua função de " + funcao + ", e sua excelente relação com a empresa onde trabalha, foi aprovado um crédito em conta corrente de R$" + disponivel ".");
+console.log("Senhor(a) " + nome + ", você está com sorte! Pela sua função de " + funcao + ", e sua excelente relação com a empresa onde trabalha, foi aprovado um crédito em conta corrente de R$" + disponivel + ".");
