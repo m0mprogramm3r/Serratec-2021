@@ -1,6 +1,7 @@
 //Cara ou Coroa
 //O programa irá funcionar assim: O sistema irá solicitar um número, o jogador irá digitar o valor que preferir.
-//O programa então irá exibir uma mensagem 
+//O programa então irá exibir uma mensagem em texto fixo, onde a única variável é o resultado da moeda.
+//Para "jogar a moeda", considere o número digitado
 
 const ler = require("prompt-sync")();
 let boolean = isTooSmall = false; 
