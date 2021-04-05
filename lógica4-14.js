@@ -4,13 +4,11 @@
 
 const ler = require("prompt-sync")();
 
-let boolean = isTooSmall = false
+let boolean 
 let limite = 5;
 let dentro = ler("Quantas pessoas há dentro da loja?: ");
-dentro = Number(dentro);
 
 let entrar = ler("Quantas pessoas estão querendo entrar na loja?: ");
-entrar = Number(entrar);
 
 let res = dentro + entrar;
 boolean = res <= limite
