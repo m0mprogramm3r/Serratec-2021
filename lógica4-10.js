@@ -1,7 +1,7 @@
 //Indique os resultados das expressões relacionais abaixo. 
 //Utilize uma variável para atribuir a sentença, e então exibir na tela o resultado booleano. 
 
-let boolean =  isTooSmall = false
+let boolean 
 let x = 6.0; 
 let y = 2;
 let z = 4.000;
