@@ -3,18 +3,14 @@
 //Crie um programa para atestar a emancipação do cidadão segundo o ano do seu nascimento.
 
 const ler = require("prompt-sync")();
-let boolean = isTooSmall = false;
+let atual = 2021;
 
 let sexo = ler("Sexo: ");
-sexo = String(sexo);
-
 let nasc = ler("Ano de nascimento: ");
-nasc = Number(nasc);
 
-let atual = 2021;
-sexo = (sexo = "feminino"), (sexo = "masculino");
 nasc = atual - nasc
-nasc = (sexo = "feminino" == nasc >= 21) && (sexo = "masculino" == nasc >= 18);
-boolean == (sexo) && (nasc);
+let res1 = sexo == "feminino" && nasc >= 21;
+let res2 = sexo == "masculino" && nasc >= 18;
+let boolean = (sexo == "feminino" && nasc >= 21) || (sexo == "masculino" && nasc >= 18);
 
 console.log("Cidadão emancipado? " + boolean);
