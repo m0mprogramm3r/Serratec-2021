@@ -4,12 +4,11 @@
 //Para "jogar a moeda", considere o número digitado: sendo par é cara, sendo ímpar é coroa.
 
 const ler = require("prompt-sync")();
-let boolean = isTooSmall = false; 
-console.log("Cara ou Coroa")
+let boolean
+console.log("== Cara ou Coroa ==")
 
 console.log("Como está sua sorte?")
 let a = ler("Jogue a moeda (digite qualquer número): ");
-a = Number(a);
 
 a = a % 2
 
