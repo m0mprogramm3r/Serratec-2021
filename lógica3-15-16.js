@@ -3,9 +3,9 @@
 //O cliente digite um número inteiro correspondente aos seus cupons. 
 //Cada cupom vale 1 ponto.
 
-const prompt = require("prompt-sync")(); 
-let cupons = prompt("Diga-me: quantos cupons você possui? ");
-let pontos = cupons * 1
+const ler = require("prompt-sync")(); 
+let cupons = ler("Diga-me: quantos cupons você possui? ");
+let pontos = cupons * 1;
 console.log("Hmm.. Deixe me ver... De acordo com os cupons que possui, você tem um total de " + pontos + " saldo em pontos no programa fidelidade!"); 
 
 //O programa fidelidade aumentou o sistema criando o "Multiplique seus pontos". 
@@ -13,6 +13,6 @@ console.log("Hmm.. Deixe me ver... De acordo com os cupons que possui, você tem
 
 console.log("Por essa você não esperava! Agora seu cupom, vale 3 pontos!! Vamos ver quantos pontos você tem hoje? ");
 
-let cupons = prompt("Olá! Diga-me: quantos cupons você possui? ");
-let pontos = cupons * 3
+cupons = ler("Olá! Diga-me: quantos cupons você possui? ");
+pontos = cupons * 3;
 console.log("Parabéns!! Você possui um total de " + pontos + " pontos no nosso programa fidelidade. Aproveite muito!");
