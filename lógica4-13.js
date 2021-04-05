@@ -1,5 +1,6 @@
 //Rodízio de CPF
-//A prefeitura de Teresópolis estabeleceu o "Rodízio 
+//A prefeitura de Teresópolis estabeleceu o "Rodízio de CPF", onde o dígito final do documento será utilizado para permitir a entrada nas lojas.
+//O CPF din
 
 const ler = require("prompt-sync")();
 let boolean = isTooSmall = false; 
