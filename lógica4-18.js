@@ -6,4 +6,10 @@ let boolean = isTooSmall = false;
 
 let mes = ler("Mês do seu nascimento: ");
 mes = Number(mes);
-let 
+let niver = ler("Dia do aniversário: ");
+niver = Number(niver);
+
+mes = mes <= 2;
+niver = (mes == 1, niver >= 21) && (mes == 2, niver <= 19);
+
+console.log("Você é inteligente? " + boolean);
