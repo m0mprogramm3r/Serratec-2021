@@ -1,0 +1,23 @@
+//Alice comprou alguns jogos e um videogame novo.
+//Para o pagamento, o sistema apresenta 3 opções de parcelamento e o valor de cada parcela.
+
+let jogos = 345.00
+let videogame = 1545.00
+let soma = jogos + videogame
+
+let x3 = soma / 3
+console.log("Alice, você pode parcelar em 3 vezes sem juros. As parcelas ficam em R$" + x3 + " reais!");
+
+let x5 = soma / 5
+console.log("Você também tem a opção de parcelar em 5 vezes sem juros. As parcelas ficam em R$" + x5 + " reais!");
+
+let percent = (1.5 * soma) / 100
+let x10 = soma / 10 + percent
+console.log("E por último, você tem a opção de parcelar em 10 vezes com juros de 1,5% no valor total da compra. As parcelas ficam em R$" + x10 + " reais!");
+
+//É muito comum vermos promoções relacionadas ao valor das compras.
+//Alice fez suas compras em um shopping cuja promoção era que a cada R$190,00 em compras, ela ganhava um cupom.
+//Quantos cupons ela ganhou?
+
+let cupons = parseInt(soma / 190)
+console.log("E o melhor! Você ganhou " + cupons + " cupons na sua compra! Parabéns :)");
