@@ -14,7 +14,7 @@ nasc = Number(nasc);
 let atual = 2021;
 sexo = (sexo = "feminino"), (sexo = "masculino");
 nasc = atual - nasc
-nasc = (sexo = "feminino" == nasc 
+nasc = (sexo = "feminino" == nasc >= 21) && (sexo = "masculino" == 
 boolean == (sexo) && (nasc);
 
 console.log("Cidadão emancipado? " + boolean);
