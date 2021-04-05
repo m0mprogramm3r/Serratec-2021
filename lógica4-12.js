@@ -3,15 +3,13 @@
 //Vamos descobrir quem digitou o maior número, pelos resultados na tela.
 
 const ler = require("prompt-sync")();
-let boolean = isTooSmall = true
+let boolean 
 
 console.log(" == Maioral == ");
 
 let a = ler("Player 1: ");
-a = Number(a);
 
 let b = ler("Player 2: ");
-b = Number(b);
 
 console.log(" == Resultados == "); 
 
