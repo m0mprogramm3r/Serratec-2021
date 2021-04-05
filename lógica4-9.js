@@ -9,7 +9,7 @@ a = Number.parseInt(a);
 let b = ler("Digite outro número: ");
 b = Number.parseInt(b);
 
-let boolean = isTooSmall = false
+let boolean 
 boolean = a > b
 console.log("a é maior que b? " + boolean);
 
