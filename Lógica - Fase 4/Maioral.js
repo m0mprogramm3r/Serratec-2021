@@ -3,21 +3,20 @@
 //Vamos descobrir quem digitou o maior número, pelos resultados na tela.
 
 const ler = require("prompt-sync")();
-let boolean 
-
 console.log(" == Maioral == ");
 
 let a = ler("Player 1: ");
-
+a = Number(a)
 let b = ler("Player 2: ");
+b = Number(b)
 
 console.log(" == Resultados == "); 
 
-boolean = a > b;
-console.log("Player 1 venceu? " + boolean);
+let res = a > b
+console.log("Player 1 venceu? " + res);
 
-boolean = a < b;
-console.log("Player 2 venceu? " + boolean); 
+res = b > a
+console.log("Player 2 venceu? " + res); 
 
-boolean = a == b;
-console.log("Houve empate? " + boolean);
+res = a == b
+console.log("Houve empate? " + res);
