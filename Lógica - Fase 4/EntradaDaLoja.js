@@ -4,13 +4,13 @@
 
 const ler = require("prompt-sync")();
 
-let boolean 
+let resultado 
 let limite = 5;
 let dentro = ler("Quantas pessoas há dentro da loja?: ");
 
 let entrar = ler("Quantas pessoas estão querendo entrar na loja?: ");
 
 let res = dentro + entrar;
-boolean = res <= limite
+resultado = res <= limite
 
-console.log("Pode prosseguir?: " + boolean);
+console.log("Pode prosseguir?: " + resultado);

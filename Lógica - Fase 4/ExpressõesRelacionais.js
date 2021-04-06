@@ -1,7 +1,7 @@
 //Indique os resultados das expressões relacionais abaixo. 
 //Utilize uma variável para atribuir a sentença, e então exibir na tela o resultado booleano. 
 
-let boolean 
+let res 
 let x = 6.0; 
 let y = 2;
 let z = 4.000;
@@ -9,32 +9,32 @@ let a = 8;
 let b = 7.5;
 let c = 12;
 
-boolean = x - y > a;
-console.log("Letra A: " + boolean);
+res = x - y > a;
+console.log("Letra A: " + res);
 
-boolean = x - (y * a) > c % y;
-console.log("Letra B: " + boolean);
+res = x - (y * a) > c % y;
+console.log("Letra B: " + res);
 
-boolean = y != c;
-console.log("Letra C: " + boolean);
+res = y != c;
+console.log("Letra C: " + res);
 
-boolean = x * y != c;
-console.log("Letra D: " + boolean);
+res = x * y != c;
+console.log("Letra D: " + res);
 
-boolean = c % y <= y % c;
-console.log("Letra E: " + boolean);
+res = c % y <= y % c;
+console.log("Letra E: " + res);
 
-boolean = a < b;
-console.log("Letra F: " + boolean); 
+res = a < b;
+console.log("Letra F: " + res); 
 
-boolean = z / a + (x * y) - 5 >= b;
-console.log("Letra G: " + boolean);
+res = z / a + (x * y) - 5 >= b;
+console.log("Letra G: " + res);
 
-boolean = c * z + 2 == a * x + y;
-console.log("Letra H: " + boolean);
+res = c * z + 2 == a * x + y;
+console.log("Letra H: " + res);
 
-boolean = c == z + b;
-console.log("Letra I: " + boolean);
+res = c == z + b;
+console.log("Letra I: " + res);
 
-boolean = y * 2 != 7 - b;
-console.log("Letra J: " + boolean);
+res = y * 2 != 7 - b;
+console.log("Letra J: " + res);

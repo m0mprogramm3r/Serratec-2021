@@ -9,6 +9,6 @@ let dia = ler("Dia do aniversário: ");
 let inicio = mes == 1 && dia >= 21;
 let fim = mes == 2 && dia <= 19;
 
-let boolean = (mes == 1 && dia >= 21) || (mes == 2 && dia <= 19);
+let resposta = (mes == 1 && dia >= 21) || (mes == 2 && dia <= 19);
 
-console.log("Você é inteligente? " + boolean);
+console.log("Você é inteligente? " + resposta);

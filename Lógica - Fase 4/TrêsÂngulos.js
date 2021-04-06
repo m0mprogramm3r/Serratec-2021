@@ -2,7 +2,7 @@
 //O programa lê os valores dos ângulos de uma forma, e escreve se as medidas formam um triângulo válido.
 
 const ler = require("prompt-sync")();
-let boolean = isTooSmall = false;
+let resultado
 
 let l1 = ler("Digite o primeiro ângulo: ");
 l1 = Number(l1);
@@ -12,5 +12,5 @@ let l3 = ler("Digite o terceiro ângulo: ");
 l3 = Number(l3);
 
 let tri = l1 + l2 + l3 == 360;
-boolean = tri;
+resultado = tri;
 console.log("O triângulo é: " + tri);

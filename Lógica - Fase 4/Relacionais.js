@@ -9,21 +9,21 @@ a = Number.parseInt(a);
 let b = ler("Digite outro número: ");
 b = Number.parseInt(b);
 
-let boolean 
-boolean = a > b
-console.log("a é maior que b? " + boolean);
+let res 
+res = a > b
+console.log("a é maior que b? " + res);
 
-boolean = a < b;
-console.log("a é menor que b? " + boolean);
+res = a < b;
+console.log("a é menor que b? " + res);
 
-boolean = a <= b;
-console.log("a é menor ou igual a b? " + boolean);
+res = a <= b;
+console.log("a é menor ou igual a b? " + res);
 
-boolean = a >= b;
-console.log("a é maior ou igual a b? " + boolean);
+res = a >= b;
+console.log("a é maior ou igual a b? " + res);
 
-boolean = a == b;
-console.log("a é igual b? " + boolean);
+res = a == b;
+console.log("a é igual b? " + res);
 
-boolean = a != b;
-console.log("a é diferente de b? " + boolean);
+res = a != b;
+console.log("a é diferente de b? " + res);

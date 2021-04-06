@@ -11,6 +11,6 @@ let nasc = ler("Ano de nascimento: ");
 nasc = atual - nasc
 let res1 = sexo == "feminino" && nasc >= 21;
 let res2 = sexo == "masculino" && nasc >= 18;
-let boolean = (sexo == "feminino" && nasc >= 21) || (sexo == "masculino" && nasc >= 18);
+let res = (sexo == "feminino" && nasc >= 21) || (sexo == "masculino" && nasc >= 18);
 
-console.log("Cidadão emancipado? " + boolean);
+console.log("Cidadão emancipado? " + res);
