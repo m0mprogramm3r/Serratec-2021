@@ -23,4 +23,4 @@ switch(ult2){
     case 1: mensagem = "Recomendação: (88% gostaram desse filme) Sobre Meninos e Lobos: Este filme pode atender sua sede de drama!"; break
     case 2: mensagem = "Recomendação: (89% gostaram desse filme) Fragmentado: Este filme pode atender sua sede de drama!"; break
 }
-console.log(mensagem);}
+console.log(mensagem);}  
