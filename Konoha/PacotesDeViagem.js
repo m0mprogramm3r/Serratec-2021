@@ -52,3 +52,5 @@ var pagamento = ler("Qual será sua forma de pagamento? DINHEIRO OU CARTAO: ");
   }
   }
    console.log ("BOA VIAGEM", nome);
+
+
