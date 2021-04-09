@@ -24,3 +24,6 @@ switch(ult2){
     case 2: mensagem = "Recomendação: (89% gostaram desse filme) Fragmentado: Este filme pode atender sua sede de drama!"; break
 }
 console.log(mensagem);}
+
+
+

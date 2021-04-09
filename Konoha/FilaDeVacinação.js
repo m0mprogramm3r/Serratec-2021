@@ -33,3 +33,10 @@ var nome = ler ("Olá, qual seu nome?");
             console.log ("Você está no grupo prioritário a ser incluído ao fim da primeira fase de vacinação, verifique calendário da sua cidade.");
         }
 
+
+
+
+
+
+
+

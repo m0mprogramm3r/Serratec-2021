@@ -41,3 +41,5 @@ else if ((tam = "G") && (idade <= 18) && (fraldas <= 6)){
 else if ((tam = "EG") && (idade <= 24) && (fraldas <= 5)){
     console.log("Mas guenta o coração!! Já está acabando!!");
 }
+
+

@@ -39,6 +39,7 @@ var comida = ler("VOCÊ DESEJA ADICIONAR POR $50/DIARIA COMIDA LIBERADA. SIM OU 
 var pagamento = ler("Qual será sua forma de pagamento? DINHEIRO OU CARTAO: ");
    if(pagamento == "DINHEIRO"){
    console.log("PAGAMENTO EM DINHEIRO");
+   console.log ("OK, VAMOS ENVIAR SEU RECIBO", nome + "O SEU TOTAL FOI DE:" +total);
   }else if (pagamento == "CARTAO"){
   
      var opcao= ler("PAGAMENTO EM CARTÃO, PODE SER PARCELADO EM 5x, deseja parcelar: ");
@@ -51,4 +52,4 @@ var pagamento = ler("Qual será sua forma de pagamento? DINHEIRO OU CARTAO: ");
       console.log ("OK, VAMOS ENVIAR SEU RECIBO", nome);
   }
   }
-   console.log ("SENHOR(a) " + nome + " O VALOR TOTAL DA SUA VIAGEM É DE: R$" + total.toFixed(2) + "TENHA UMA BOA VIAGEM!!");
+   console.log ("BOA VIAGEM", nome);
