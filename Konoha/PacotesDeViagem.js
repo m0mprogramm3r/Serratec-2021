@@ -20,7 +20,7 @@ console.log ("Ok, você escolheu o destino", pacote ,"vamos lá!");
 var comida = ler("VOCÊ DESEJA ADICIONAR POR $50/DIARIA COMIDA LIBERADA. SIM OU NAO: ");
   if (comida == "SIM"){
       var valorComida = 50.0;
-       console.log ("ADICIONAMOS ESSA VANTAGEM AO SEU PACOTE *-*");
+       console.log ("ADICIONAMOS ESSA VANTAGEM AO SEU PACOTE -");
    }else if (comida == "NAO"){
        console.log ("OK, PRÓXIMA OPÇÃO");
    }
@@ -28,7 +28,7 @@ var comida = ler("VOCÊ DESEJA ADICIONAR POR $50/DIARIA COMIDA LIBERADA. SIM OU 
    var guia =  ler("DESEJARIA POR $10/DIARIA UM GUIA ESPECIALIZADO EM TURISMO? SIM OU NAO: ");
      if (guia == "SIM"){
          var valorGuia = 10.0;
-         console.log ("VOCÊ ADQUIRIU O GUIA *-*");
+         console.log ("VOCÊ ADQUIRIU O GUIA -");
      }else if(guia == "NAO");{
          console.log ("OK, PRÓXIMA OPÇÃO");
      }
@@ -51,4 +51,4 @@ var pagamento = ler("Qual será sua forma de pagamento? DINHEIRO OU CARTAO: ");
       console.log ("OK, VAMOS ENVIAR SEU RECIBO", nome);
   }
   }
-   console.log ("BOA VIAGEM", nome);
+   console.log ("SENHOR(a) " + nome + " O VALOR TOTAL DA SUA VIAGEM É DE: R$" + total.toFixed(2) + "TENHA UMA BOA VIAGEM!!");
