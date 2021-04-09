@@ -51,3 +51,5 @@ nome, o ingresso irá informar seu número, nome de quem reservou e se é meia
  for(i = 0; i < 5; i++){
  console.log("\nNome: " + nomes[i] + "\nNumero ingresso: "+ i + "\nTipo ingresso: " + tipoIngresso[i]);
  }
+
+
