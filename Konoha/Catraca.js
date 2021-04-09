@@ -41,3 +41,5 @@ console.log("Agora são," , pagante, "pessoas são pagantes e", gratuidade, " s�
 console.log("O total de ganho é ", passagem.toFixed(2));
 console.log("Total de passageiro,", total);
 console.log("Obrigado, fim de espediente!");
+
+
