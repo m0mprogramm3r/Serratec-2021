@@ -5,11 +5,8 @@ permitido apenas uma reserva por nome.
 nome, o ingresso irá informar seu número, nome de quem reservou e se é meia
  ou não.
  tipo ingresso ok
- nome pessoa ok
- 
+ nome pessoa ok 
  */
- 
-
  const prompt = require ("prompt-sync")();
  //3 INTEIRAS E 2 MEIAS
  var inteira = 0;
@@ -33,8 +30,7 @@ nome, o ingresso irá informar seu número, nome de quem reservou e se é meia
           console.log("Essse nome já consta em nossa base");
           continue;
       }
-   }
- 
+   } 
      nomes.push(nome);
  
    var pagante = prompt("Senhor " + nome + " você deseja um ingresso inteiro ou meia? obs. existem 2 ingressos meia e 3 inteiros")
@@ -48,8 +44,7 @@ nome, o ingresso irá informar seu número, nome de quem reservou e se é meia
      meia++
      }
      }
-     tipoIngresso.push(pagante);
- 
+     tipoIngresso.push(pagante); 
  }
  // console.log(nomes)
  // console.log(tipoIngresso)
