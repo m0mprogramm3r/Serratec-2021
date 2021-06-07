@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://images4.alphacoders.com/109/1096950.jpg");
+    background-size: cover;
+    text-align: center;
+}
+img {
+    border-radius: 30%;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+#idade {
+    font-family: cursive;
+    font-size: small;
+    text-align: center;
+    padding: 1px;
+}
+p {
+    text-align: center;
+    font-size: small;
+  }
+#experiencia{
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: medium;
+    text-align: center;
+    color: black;
+}
+#formacao{
+    text-decoration: underline;
+    font-family: cursive;
+    font-size: medium;
+    text-align: center;
+    color:rgb(3, 0, 5);
+}
+div {
+    text-indent: 50px;
+}

@@ -1,0 +1,5 @@
+Criei um modelo bem simples mesmo de currículo com um background image do naruto :)
+Usei o base target para abrir o link do meu perfil no linkedIn em outra aba do navegador.
+Foi usado a tag <pre> para manter a formatação do texto.
+Em css usei background image e size para a imagem de fundo do naruto.
+Em #experencia e #formacao usei o text-decoration underline para sublinhar o texto. 

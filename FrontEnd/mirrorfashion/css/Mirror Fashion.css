@@ -1,0 +1,25 @@
+body {
+    color: #333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: small;
+}
+h1 {
+   background-repeat: url("sobre-background.jpg");
+}
+pre {
+    border-radius: 50%;
+    color:#333;
+    text-align: center;
+}
+/**usar border bottom
+usar margin top, margin left, margin bottom, margin right
+os parametros de margin seguem o sentido horário. 
+exp: margin:10px 30px 50px 70px;
+usar padding
+pesquisar sobre seletores css
+pesquisar positions
+pesquisar formas de seletores css
+ponto é classe, tralha é atributo
+::first-line
+animation
+mobile first e resposividade

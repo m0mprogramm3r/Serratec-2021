@@ -1,0 +1,187 @@
+html,
+body {
+  background-color: #fff;
+}
+
+.patagonia .bgPtg {
+  background-color: #a79d0f !important;
+}
+.patagonia nav.navbar {
+  background-color: #a79d0f !important;
+}
+
+.patagonia nav.navbar a{
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.patagonia nav.navbar ul.dropdown-menu a {
+  color: #525252 !important;
+  font-weight: normal !important;
+}
+.holanda .bgPtg {
+  background-color: #a79d0f !important;
+}
+.holanda nav.navbar {
+  background-color: #a79d0f !important;
+}
+
+.holanda nav.navbar a{
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.holanda nav.navbar ul.dropdown-menu a {
+  color: #525252 !important;
+  font-weight: normal !important;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 900px) {
+  header img{
+    height: 271px;
+    width: 476px;
+  }
+}
+
+@media (max-width: 500px) {
+  header img{
+    height: 136px;
+    width: 238px;
+  }
+}
+
+
+#carouselPromotions .carousel-caption,
+#carouselInnerPages .carousel-caption {
+  background: rgba(255, 255, 255, 0.35);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 5rem !important;
+  height: 5rem !important;
+}
+
+a {
+  color: #a79d0f !important;
+  text-decoration: none !important;
+}
+
+a:focus,a:hover {
+  color: #525252 !important;
+  text-decoration: none
+}
+
+.btn{
+  color: #fff !important;
+  background-color: #a79d0f !important; 
+}
+
+.btn-primary {
+  border-color: #a79d0f !important;
+}
+
+div.main {
+  margin-top: 2em;
+}
+
+h3, h4 {
+  color: #a79d0f;
+}
+h5{
+  color: rgb(0, 0, 0);
+}
+.sidding-lines {
+  color: #a79d0f !important;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.sidding-lines:before,
+.sidding-lines:after {
+  content: '';
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+}
+
+.sidding-lines:after {
+  margin: 0 0 0 20px;
+}
+
+.patagonia .navbar-nav,
+.patagonia .me-auto {
+  flex: 1;
+  margin: auto !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+address {
+  text-align: center;
+}
+.footer-newsletter  {
+  margin-bottom:1em;
+}
+
+
+.quem-somos-items > div {
+  margin-bottom:1em;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:250px;
+  width:350px;
+}
+
+#contatoMensagemEnviada {
+  display: none;
+}
+ .img-destino{
+  width:55%;
+ }
+#carouselInnerPages .carousel-item {
+  height: 300px;
+  text-align: justify
+}
+
+#carouselInnerPages .carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+#texto-descritivo{
+  text-align: justify
+}
+.bannerCarousel{
+  width: 1350px;
+  height: 300px;
+}
+
+.parqueNacional {
+  background: url('parquenacional.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.footer-newsletter {
+  margin-top:1em;
+}
+
+.quem-somos-items div.card {
+  margin-bottom: 1em;
+}
